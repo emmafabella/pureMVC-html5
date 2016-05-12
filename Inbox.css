@@ -1,0 +1,193 @@
+.inboxid-search-icn { margin: 0px;
+	background-image: url('images/searchIco.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	width: 21px;
+	height: 16px;
+	top: 4px;
+	left: -22px;
+}
+
+.inboxid-search-icn2{ margin: 0px;
+	background-image: url('images/searchIco.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	width: 15px;
+	height: 15px;
+	top: 4px;
+	left: 39px;
+	border: 0.1em solid #021a40;	
+}
+
+.userid-search-icn { margin: 0px;
+	background-image: url('images/searchIco.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	width: 21px;
+	height: 16px;
+	top: 4px;
+	left: 5px;
+}
+
+.mail-mask{
+   position: relative;
+   overflow: hidden;
+   margin: 0px auto;
+   width: 100%;
+   background-color: #FFFFFF
+}
+
+.mail-colleft{
+   position: relative;
+   width: 100%;
+   right: 85%;
+   background-color: #f4f4f4
+}
+.mail-rightside{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width: 84.5%;
+   left: 100.25%;
+   background-color: #FFFFFFF
+}
+.mail-leftside{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width: 14.5%;
+   left: 0.75%;
+   background-color: #e6e6e6
+}
+
+.mail-leftside .accordion {
+    margin: 0;
+    padding: 0px 10px;
+    overflow: auto;
+	padding-top: 11px;
+	padding-bottom: 11px
+}
+
+.mail-leftside .accordion li .highlighter{
+    background-color: rgb(55,156,235) !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    /*    text-shadow: 0px 0px 2px #000; */
+}
+
+.mail-leftside .accordion li .highlighter a{
+    color: white  !important;
+    font-weight: bold!important;
+    -webkit-font-smoothing: antialiased;
+    text-shadow:0px 1px 1px #000000; color: #FFFFFF !important;
+    font-size: 1.1em;
+	margin-left: 15px;
+
+    /*    text-shadow: 0px 0px 2px #000; */
+}
+
+
+.mail-leftside .accordion li {
+    list-style-type: none;
+    background:#FFFFFF;
+    margin: 5px 0px;
+    padding:5px 0px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    border-radius: 6px 6px 6px 6px;
+    font-weight:bold;
+	font-size: 12px;
+}
+
+.mail-leftside .accordion li a{
+	margin-left: 15px;
+	text-decoration: none;
+}
+.mail-leftside  accordion div {
+    margin-left: 19px;
+    list-style-type: none;
+    padding:0px 5px;
+    font-weight:normal;
+    background:none
+}
+.mail-leftside  ul {
+    border: 0;
+    margin:0px 10px;
+    padding:5px;
+    display: block;
+
+}
+.mail-leftside  ul.accordion ul {
+    margin: 0;
+    padding: 0 0 0 20px;
+    background:#fff;
+    -webkit-border-radius: 6px 6px 6px 6px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.ebstoolbar ul.toolbar li a.mailforward-enabled {
+	background:url(images/mail_forward_icn.png) no-repeat;
+	width:18px;
+	height:26px;
+}
+
+.ebstoolbar ul.toolbar li a.mailforward-disabled {
+	background:url(images/mail_forward_disabled_icn.png) no-repeat;
+	width:18px;
+	height:26px;
+}
+
+.ebstoolbar ul.toolbar li a.mailreply-enabled {
+	background:url(images/mail_reply.png) no-repeat;
+	width:18px;
+	height:26px;
+}
+
+.ebstoolbar ul.toolbar li a.mailreply-disabled {
+	background:url(images/mail_reply_disabled.png) no-repeat;
+	width:18px;
+	height:26px;
+}
+
+.ebstoolbar ul.toolbar li a.mailsend-enabled {
+	background:url(images/mail_Send.png) no-repeat;
+	width:18px;
+	height:26px;
+}
+
+.ebstoolbar ul.toolbar li a.mailsend-disabled {
+	background:url(images/mail_Send_disabled.png) no-repeat;
+	width:18px;
+	height:26px;
+}
+
+.ebstoolbar ul.toolbar li a.mailread-enabled {
+	background:url(images/mail_read_icn.png) no-repeat;
+	width:18px;
+	height:26px;
+}
+
+.ebstoolbar ul.toolbar li a.mailunread-disabled {
+	background:url(images/mail_unread_icn.png) no-repeat;
+	width:18px;
+	height:26px;
+}
+
+.ebstoolbar ul.toolbar li a.mailalert {
+	background:url(images/mail_alert.png) no-repeat;
+	width:18px;
+	height:26px;
+}
+
+.ebstoolbar ul.toolbar li a.mailattach {
+	background:url(images/mail_attach.png) no-repeat;
+	width:18px;
+	height:26px;
+}

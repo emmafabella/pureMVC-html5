@@ -1,0 +1,18 @@
+#container_grid .tranIcon {	
+    cursor:pointer;
+    border:0;
+    width:20px;
+    height:20px;
+}
+#container_grid .cardDetails {
+    background: url('images/cardEdit.png') no-repeat;
+}
+#container_grid .cardStop {
+    background: url('images/cancel2.png') no-repeat;
+}
+#container_grid .cardStop-disabled {
+    background: url('images/cancel2_disabled.png') no-repeat;
+}
+#container_cardportfolio .acctGrid {
+    height:150px;
+}
